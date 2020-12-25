@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import sys
 
 def pieChart(imgfilename):
+	labels=[frogs,hogs,dogs,logs]
 	sizes=[15,40,30,20]
 	explode=(0,0.1,0,0)
 	figl,axl=plt.subplots()
